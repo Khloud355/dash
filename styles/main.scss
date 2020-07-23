@@ -1,0 +1,123 @@
+$boddy-color: #181818;
+$hov-color: #363636;
+$hover-color: rgb(187, 179, 179);
+$main-color: #ccc;
+$color2: #868686;
+$color3:rgb(130,96,229);
+$color4: rgb(161, 139, 228);
+$color5: #fff;
+
+body {
+  background-color: $boddy-color;
+}
+.channel-head {
+  padding: 30px 0;
+  h3 {
+    color: $color5;
+  }
+  .icon-span {
+    background-color: transparent;
+    border: none;
+    color: $color2;
+    height: 36px;
+    border-radius: 5px;
+    position: relative;
+    top: 2px;
+    &:hover {
+      background-color: $color2;
+      color: $color5;
+    }
+  }
+
+  .coloum2 {
+    color: $color2;
+    // margin: right;
+    // &:hover{
+    //     background-color:$hover-color;
+    // }
+    float: right;
+  }
+  .primary-button {
+    color: $color5;
+    background-color: $color3;
+    &:hover {
+      background-color: $color4;
+    }
+  }
+  .close-button {
+    background-color: $hover-color;
+    color: $color3;
+  }
+  .save-button {
+    background-color: $color3;
+    color: $hover-color;
+  }
+}
+.nav-section {
+  border-bottom: 1px solid $color2;
+  ul {
+    border-bottom: none;
+  }
+  .nav-link {
+    color: $color2;
+    border: none;
+    margin: 0 1px;
+    // padding: 10px 0;
+    &.active {
+      background-color: transparent;
+      color: #fff;
+      border-bottom: 5px solid $color3;
+    }
+    &:hover {
+      color: #fff;
+      border-bottom: 5px solid $color2;
+    }
+  }
+  input {
+    background-color: transparent;
+    color: #868686;
+    height: 35px;
+    position: relative;
+    top: 4px;
+    border: 1px solid $color2;
+    border-radius: 5px;
+    // text-align:left;
+  }
+  // border-bottom: 1px solid $color3;
+  button {
+    height: 35px;
+  }
+}
+.tab-content {
+    padding: 30px 0;
+  p {
+    color: $color5;
+    margin: 0 33%;
+    @media(max-width:375px){
+      margin: 0 20%;
+    }
+    @media(max-width:414px){
+      margin: 0 10%;
+    }
+  }
+  i{
+    color: $main-color;
+    margin: 10px 43%;
+    @media(max-width:375px){
+      margin: 0 35%;
+    }
+    @media(max-width:414px){
+      margin: 0 35%;
+    }
+  }
+  h4{
+    color: $color5; 
+    margin: 10px 35%;
+    @media(max-width:375px){
+      margin: 0 10%;
+    }
+    @media(max-width:414px){
+      margin: 0 15%;
+    }
+  }
+}

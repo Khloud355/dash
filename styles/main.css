@@ -1,0 +1,145 @@
+body {
+  background-color: #181818;
+}
+
+.channel-head {
+  padding: 30px 0;
+}
+
+.channel-head h3 {
+  color: #fff;
+}
+
+.channel-head .icon-span {
+  background-color: transparent;
+  border: none;
+  color: #868686;
+  height: 36px;
+  border-radius: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.channel-head .icon-span:hover {
+  background-color: #868686;
+  color: #fff;
+}
+
+.channel-head .coloum2 {
+  color: #868686;
+  float: right;
+}
+
+.channel-head .primary-button {
+  color: #fff;
+  background-color: #8260e5;
+}
+
+.channel-head .primary-button:hover {
+  background-color: #a18be4;
+}
+
+.channel-head .close-button {
+  background-color: #bbb3b3;
+  color: #8260e5;
+}
+
+.channel-head .save-button {
+  background-color: #8260e5;
+  color: #bbb3b3;
+}
+
+.nav-section {
+  border-bottom: 1px solid #868686;
+}
+
+.nav-section ul {
+  border-bottom: none;
+}
+
+.nav-section .nav-link {
+  color: #868686;
+  border: none;
+  margin: 0 1px;
+}
+
+.nav-section .nav-link.active {
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 5px solid #8260e5;
+}
+
+.nav-section .nav-link:hover {
+  color: #fff;
+  border-bottom: 5px solid #868686;
+}
+
+.nav-section input {
+  background-color: transparent;
+  color: #868686;
+  height: 35px;
+  position: relative;
+  top: 4px;
+  border: 1px solid #868686;
+  border-radius: 5px;
+}
+
+.nav-section button {
+  height: 35px;
+}
+
+.tab-content {
+  padding: 30px 0;
+}
+
+.tab-content p {
+  color: #fff;
+  margin: 0 33%;
+}
+
+@media (max-width: 375px) {
+  .tab-content p {
+    margin: 0 20%;
+  }
+}
+
+@media (max-width: 414px) {
+  .tab-content p {
+    margin: 0 10%;
+  }
+}
+
+.tab-content i {
+  color: #ccc;
+  margin: 10px 43%;
+}
+
+@media (max-width: 375px) {
+  .tab-content i {
+    margin: 0 35%;
+  }
+}
+
+@media (max-width: 414px) {
+  .tab-content i {
+    margin: 0 35%;
+  }
+}
+
+.tab-content h4 {
+  color: #fff;
+  margin: 10px 35%;
+}
+
+@media (max-width: 375px) {
+  .tab-content h4 {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 414px) {
+  .tab-content h4 {
+    margin: 0 15%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
